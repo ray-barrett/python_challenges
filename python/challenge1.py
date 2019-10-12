@@ -13,7 +13,7 @@ import datetime
 
 def time_differences(dates):
     # type: (list[str]) -> (list[str])
-    """Tak a list of date strings of format "Day dd Mon yyyy hh:mm:ss +xxxx" and
+    """Take a list of date strings of format "Day dd Mon yyyy hh:mm:ss +xxxx" and
     return the difference between each pair.
 
     Args:
