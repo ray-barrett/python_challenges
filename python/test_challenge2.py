@@ -26,6 +26,10 @@ def test_valid_emails(email):
         "@gmail.com",
         "ray@.com",
         "ray@barrett.",
+        "ray@barrettcom",
+        "raybarrett",
+        "john@doe.com ",
+        " email@example.com",
     ],
 )
 def test_invalid_emails(email):

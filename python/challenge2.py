@@ -43,7 +43,7 @@ if __name__ == "__main__":
     # Write to file if there is one specified to be written to.
     if os.environ.get("OUTPUT_PATH"):
         with open(os.environ["OUTPUT_PATH"], "w") as fptr:
-            fptr.write("\n".join(map(str, results)))
+            fptr.write(str(results))
             fptr.write("\n")
     else:
         print(results)
