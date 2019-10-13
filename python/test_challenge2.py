@@ -1,5 +1,8 @@
-import challenge2
+#!/bin/python3
+
 import pytest
+
+import challenge2
 
 
 @pytest.mark.parametrize(

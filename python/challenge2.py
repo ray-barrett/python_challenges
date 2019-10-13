@@ -1,5 +1,6 @@
-import os
+#!/bin/python3
 
+import os
 import re
 
 _EMAIL_EXP = "^[\\w-]+@[A-Za-z0-9]+\\.[a-z]{1,3}$"
